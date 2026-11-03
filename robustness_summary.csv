@@ -1,0 +1,14 @@
+ProjectID,ProjectName,DatasetSource,Model,TestCondition,RMSE
+P01,Robust‑ML Retail‑Sales Prediction,UCI Online‑Retail,Decision‑Tree Regressor,Clean baseline,113.18
+P01,Robust‑ML Retail‑Sales Prediction,UCI Online‑Retail,Decision‑Tree Regressor,5% missing Quantity entries,7.64
+P01,Robust‑ML Retail‑Sales Prediction,UCI Online‑Retail,Decision‑Tree Regressor,3% Unit‑Price outliers,116.66
+P01,Robust‑ML Retail‑Sales Prediction,UCI Online‑Retail,Random‑Forest Regressor,Clean baseline,115.92
+P01,Robust‑ML Retail‑Sales Prediction,UCI Online‑Retail,Random‑Forest Regressor,5% missing Quantity entries,8.15
+P01,Robust‑ML Retail‑Sales Prediction,UCI Online‑Retail,Random‑Forest Regressor,3% Unit‑Price outliers,117.4
+P02,Retail‑Sales Extreme‑Price Outlier Study,Derived UCI Online‑Retail subset,Random‑Forest Regressor,Cleaned (2 outliers removed),123
+P02,Retail‑Sales Extreme‑Price Outlier Study,Derived UCI Online‑Retail subset,Random‑Forest Regressor,Original (2 outliers present),412
+P03,Cafe‑Sales Robustness Experiment,dirty_cafe_sales.csv,Random‑Forest Regressor,Original clean dataset,0.01
+P03,Cafe‑Sales Robustness Experiment,dirty_cafe_sales.csv,Random‑Forest Regressor,With synthetic high‑price outliers,0.41
+P04,Air‑Quality Forecast‑Model Robustness for Digital‑Twin Use‑Case,São‑José do Rio Preto hourly PM10,Random‑Forest Regressor,Clean‑sensor baseline,3.35
+P04,Air‑Quality Forecast‑Model Robustness for Digital‑Twin Use‑Case,São‑José do Rio Preto hourly PM10,Random‑Forest Regressor,5% missing lag‑feature values,4.02
+P04,Air‑Quality Forecast‑Model Robustness for Digital‑Twin Use‑Case,São‑José do Rio Preto hourly PM10,Random‑Forest Regressor,5% positive‑spike outliers,4.65
