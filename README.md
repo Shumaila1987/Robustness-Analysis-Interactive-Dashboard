@@ -19,6 +19,8 @@ When I first started working on these datasets I ran separate charts and small P
  
 4. Robust ML Forecasting ‑ São‑Paulo Air‑Quality Sensor Series
  ‑ Works on public‑domain environmental‑monitoring timestamped data; tests effects of simulated intermittent‑reading‑loss patterns. Error rose moderately (+29.40 %).
+
+ ![RMSE comparison chart](robustness_rmse_plot.png)
  
 ## Dashboard features
  
